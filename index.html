@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/84a789694f.js" crossorigin="anonymous"></script>
+    <title>Dev Notes</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>DevNotes</h1>
+
+        <div id="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type= "text" id = "search-input" placeholder = "Busque por uma nota">
+            <button id="export-notes">
+                Exportar CSV <i class="fa-solid fa-download"></i>
+            </button>
+        </div>
+    </header>
+
+    <div id="add-note-container">
+        <input type="text" id = "note-content" placeholder = "O que deseja anotar?">
+        <button id="add-note"><i class="fa-solid fa-plus"></i></button>
+    </div>
+
+    <div id="notes-container">
+        <div class="note">
+            <textarea placeholder="Adicione algum textO"></textarea>
+            <i class="fa-solid fa-thumbtack"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-file-circle-plus"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
